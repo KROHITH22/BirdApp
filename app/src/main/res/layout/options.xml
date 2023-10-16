@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".OptionsActivity">
+
+    <Button
+        android:id="@+id/btnViewHotspots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Hotspots and Species"
+        android:onClick="viewHotspotsOnClick" />
+
+    <Button
+        android:id="@+id/btnViewRoutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Routes and Directions"
+        android:onClick="viewRoutesOnClick" />
+
+    <Button
+        android:id="@+id/btnInputData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input and Store Data from Observations"
+        android:onClick="inputDataOnClick" />
+
+    <Button
+        android:id="@+id/btnViewHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View History and Past Data"
+        android:onClick="viewHistoryOnClick" />
+
+</LinearLayout>
